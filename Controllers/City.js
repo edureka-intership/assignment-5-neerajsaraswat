@@ -1,6 +1,8 @@
-const City = require('../Models/City.json'); // import city json data from models
+const City = require('../Models/City.json'); 
 
-// API for getCityList function : to get all cities
+// the city json data is imported from models
+
+// API for getCityList function is used to get all cities
 
 exports.getCityList = (req,res) =>{
     const result = City.map(item => item.name);

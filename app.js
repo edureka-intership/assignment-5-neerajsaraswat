@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const router = require('./Routes/routes');
+const router = require('./routes/api_routes');
 
 const hostname = 'localhost';
 const port = 8055;
